@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Brookman Old Style';
+    src: url('ruta/a/BrookmanOldStyle-Regular.ttf') format('truetype'); /* Reemplaza 'ruta/a/' con la ubicación real del archivo de la fuente */
+}
+
+body {
+    background-image: url('https://s0.smartresize.com/wallpaper/364/79/HD-wallpaper-digital-technologies-in-medicine-heart-rate-medicine-background-pulse-medicine-background-medicine-concepts.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Brookman Old Style', Tahoma, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(8px); /* Efecto de desenfoque en el fondo */
+}
+
+h1 {
+    text-align: center;
+    color: rgba(69, 4, 113, 0.938);
+    font-size: 200px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Añade un sombreado al texto */
+}
+
+.clinica-shanax {
+    font-size: 0.8em; /* Tamaño de la fuente solo para "Clínica Shanax" */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    margin: 0 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #3916ab;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border: 1px solid #5dc1b9;
+    box-shadow: 0 0 5px #31d3ab, 0 0 20px #9ce0db, 0 0 50px #9ce0db, 0 0 100px #9ce0db;
+}
+
+.button:hover {
+    background-color: #5dc1b9;
+    color: #3916ab;
+    transform: scale(1.1);
+}
